@@ -1,0 +1,493 @@
+body{
+
+}	
+	/*导航部分*/
+	#header{
+		width: 100%;
+		background: #2189bf;
+		position: relative;
+	}
+
+		.logo{
+			margin: 10px 56px;
+		}
+
+		.search input{	
+			width: 313px;
+			height: 28px;
+			border:none;
+			border-radius: 14px;
+			position: absolute;
+			right: 160px;
+			top: 14px;
+			outline: none;
+			background: white url(搜索.png) no-repeat;
+			background-position: 9px 6px;
+			padding-left: 29px;
+		}
+
+		.login{
+			position: absolute;
+			right: 120px;
+			top: 20px;
+		}
+
+		#header a{
+			font-size: 12px;
+			color: white;
+			position: absolute;
+			right: 90px;
+			top:22px;
+			text-decoration: none;
+		}
+
+		#header a:hover{
+			
+		}
+		
+	@media(max-width:769px){
+		
+		.logo{
+		margin: 10px 10px;
+		}
+
+		.search input{	
+			width: 113px;
+			height: 28px;
+			border:none;
+			border-radius: 14px;
+			position: absolute;
+			right: 60px;
+			top: 14px;
+			outline: none;
+			background: white url(搜索.png) no-repeat;
+			background-position: 9px 6px;
+			padding-left: 29px;
+		}
+
+		.login{
+			position: absolute;
+			right: 40px;
+			top: 20px;
+		}
+
+		#header a{
+			font-size: 12px;
+			color: white;
+			position: absolute;
+			right: 10px;
+			top:22px;
+			text-decoration: none;
+		}
+	}
+		
+		/*导航部分*/
+#main{
+	width: 100%;
+}		
+		/*左边部分*/
+@media(min-width: 768px){
+.left{
+	/*自适应大于768是20%小于是100%*/
+	color: white;
+	width: 20%;
+	height: 600px;
+	background: #2a2e3d;
+	float: left;
+	position: relative;
+}
+}
+
+@media(max-width: 768px){
+.left{
+	/*自适应大于768是20%小于是100%*/
+	color: white;
+	width: 100%;
+	height: 600px;
+	background: #2a2e3d;
+	
+	position: relative;
+}	
+}
+		/*头像部分*/
+
+		.portrait{
+			width: 47px;
+			height: 47px;
+			border: 1px solid white;
+			border-radius: 27.5px;
+			padding: 4px;
+			position: absolute;
+			top: 20px;
+			left: 20%;
+		}
+
+		.homepage h2{
+			font-size: 16px;
+			font-family: 黑体;
+			position: absolute;
+			top: 31.5px;
+			left: 50%;
+		}
+
+		.collect{
+			font-size: 16px;
+			font-family: 黑体;
+			color: #6e8095;
+			position: absolute;
+			top: 86px;
+			left: 25%;
+		}
+
+		.homepage hr{
+			border-color: #6e8095;
+			width: 0;
+			height: 28px;
+			position: absolute;
+			top: 99px;
+			left: 48%;
+		}
+
+		.fans{
+			font-size: 16px;
+			font-family: 黑体;
+			color: #6e8095;
+			position: absolute;
+			top: 86px;
+			right: 30%;
+		}
+
+		.homepage a{
+			font-family: 宋体;
+			color: #6e8095;
+			text-decoration: none;
+			font-size: 12px;
+		}/*头像部分*/
+
+.collection{
+	
+	width: 100%
+	height:200px;
+	box-sizing: border-box;
+	position: absolute;
+	top: 170px;
+	width: 100%;
+}
+
+.collection_report{
+	background: #383d4e;
+	
+}
+
+	.collection li{
+		color: #6e8095;
+		font-family: 黑体;
+		font-size: 12px;
+		list-style-type:none;		
+		line-height: 12px;
+		margin-top: 20px;
+		padding-left: 25%;
+	}
+
+	.collection a{
+		font-family: 黑体;
+		font-size: 12px;
+		color: #6e8095;
+		text-decoration: none;
+
+	}
+
+	.collection a:hover{
+		font-family: 黑体;
+		font-size: 12px;
+		color: white;
+		text-decoration: none;
+
+	}
+
+		/*左边部分暂时完成，图标的位置问题没解决，还有这种文件夹的折叠应该是有其他表示方式吧*/
+
+
+		/*右边部分*/
+@media(min-width: 768px){
+.right{
+	width: 80%;
+	background: #eeeded;
+	float: left;
+}
+}
+
+@media(max-width: 768px){
+.right{
+	box-sizing: border-box;
+
+	width: 100%;
+	background: #eeeded;
+	float: left;
+}	
+}
+	/*右边最上面*/
+
+	.right-top{
+		color: #6e8095;
+		font-size: 12.28px;
+		font-family: 黑体;
+		padding-left: 3em;
+		background: white;
+	}
+
+	.right-top a{
+		color: #6e8095;
+		font-size: 12.28px;
+		font-family: 黑体;
+		line-height: 31px;
+		text-decoration: none;
+	}
+
+	/*右边最上面*/
+	/*右边下面内容*/
+	.right-main{
+		
+		padding: 20px 50px;
+		box-sizing: border-box;
+		
+	}
+	.right-main-27{
+		box-sizing: border-box;
+		
+		width: 100%;
+		padding: 5px;
+		background: ;
+		float: left;
+	}
+
+	.right-main-1-left{
+		box-sizing: border-box;
+		
+		width: 6%;
+		padding: 5px;
+		background: ;
+		float: left; 
+	}
+
+	.right-main-1-right{
+		box-sizing: border-box;
+		
+		width: 6%;
+		padding: 5px;
+		background: ;
+		float: left;
+	}
+
+	.right-main-3{
+		box-sizing: border-box;
+		
+		width: 12%;
+		padding: 5px;
+		background: ; 
+		float: left;
+	}
+
+	.right-main-4{
+		box-sizing: border-box;
+		
+		width: 16%;
+		padding: 5px;
+		background: ; 
+		float: left;
+	}
+
+	.right-main-6{
+		box-sizing: border-box;
+		
+		width: 25%;
+		padding: 5px;
+		background: ;
+		float: left; 
+	}
+
+	.right-main-17{
+		box-sizing: border-box;
+		
+		width: 63%;
+		padding: 5px;
+		background: ;
+		float: left; 
+	}
+
+	.right-main-10{
+		box-sizing: border-box;
+		
+		width: 37%;
+		padding: 5px;
+		background: ;
+		float: left; 
+	}
+
+		.text{
+			background: white;
+			border: 1px solid black;
+			width: 100%;
+			box-sizing: border-box;
+			float: left;
+			padding: 10px;
+
+		}
+
+		.text-time{
+			font-size: 12px;
+			font-family: 黑体;
+			line-height: 20px;
+			width: 100%;
+		}
+
+		
+		.text-time option{
+			font-size: 12px;
+			font-family: 黑体;
+		}
+
+		.text>div{
+			
+			float: left;
+			background: ;
+		}
+
+		.text p,select{
+			float: left;
+			margin: 2.5px 0;
+		}
+
+		.text-27-a{
+			width: 20%;
+		}
+
+		.text-27-a select{
+			width: 70px;
+		}
+
+		.text-27-b{
+			width: 22%;
+		}
+
+		.text-27-b select{
+			width: 140px;
+		}
+
+		.text-27-c{
+			width: 35%;
+		}
+
+		.text-27-c .time-a{
+			width: 140px;
+		}
+
+		.text-27-c .time-b{
+			width: 70px;
+		}
+
+		.text-27-c .time-c{
+			width: 70px;
+		}
+
+		.text-27-c .time-d{
+			width: 140px;
+		}
+
+		.text-27-d{
+			width: 20%;
+			line-height: 52.5px;
+		}
+
+		.text-27-d input{
+			font-size: 12px;
+			font-family: 黑体;
+			color: #f5f8fb;
+			background: #388ac1;
+			border: none;
+			border-radius: 2px;
+			width: 50px;
+			height: 25px;
+		}
+
+		.text-27-huan{
+			margin-top: 6.5px;
+			
+			line-height: 38px;
+			width: 28px;
+			height: 38px;
+			background: url(换.png)no-repeat;
+			float: left;
+		}
+
+		.text-27-huan a{
+			padding-left: 13.5px;
+			text-decoration: none;
+		}
+
+		.text-27-huan a:hover{
+			padding-left: 13.5px;
+			text-decoration: none;
+		}		
+	/*右边下面内容最上面*/
+
+
+	/*分割*/
+		 .text-money{
+		 	box-sizing: border-box;
+		 	width: 100%;
+		 	height: 75px;
+		 	text-align: center;
+
+		 }
+
+		 .text-money p{
+
+		 }
+
+		 .text-money a{
+		 	font-size: 21px;
+		 	font-family: Microsoft Yahei;
+		 	color: #ec6500;
+		 	text-decoration: none;
+
+		 }
+
+		 .text-left{
+		 	height: 75px;
+		 	text-align: center;
+		 	padding-top: 27.5px;
+		 }
+
+		 .text-right{
+		 	height: 75px;
+		 	text-align: center;
+		 	padding-top: 27.5px;
+		 }
+
+		 .text-history{
+		 	font-size: 12px;
+		 	font-family: Microsoft Yahei;
+		 	color: #535353;
+		 	padding-top: 20px;
+		 	padding-left: 20px;
+		 	height: 75px;
+		 	box-sizing: border-box;
+		 	
+		 }
+
+		 .text-history a{
+		 	text-decoration: none;
+		 	margin-left: 10px;
+		 	float: left;
+		 	line-height: 32px;
+		 }
+
+		 .text-history img{
+		 	float: left;	
+		 	
+		 	
+		 }
+
+
+		/*右边部分*/
