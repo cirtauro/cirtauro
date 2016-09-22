@@ -484,10 +484,109 @@ body{
 		 }
 
 		 .text-history img{
-		 	float: left;	
-		 	
-		 	
+		 	float: left;
 		 }
+/*成交量部分*/
+		.right-main-6{
+			position: relative;
 
+		}
 
+		.text-volume-a{
+			border-left: 4px solid #43b29e;
+		}
+
+		.text-volume-b{
+			border-left: 4px solid #388ac1;
+		}
+
+		.text-volume-c{
+			border-left: 4px solid #d04a36;
+		}
+
+		.text-volume-d{
+			border-left: 4px solid #e2cd47;
+		}
+
+		.right-main-6 h2{
+			font-size: 12px;
+			font-family: 黑体;
+			font-weight: bold;
+			
+			margin-top: 6px;
+		}
+
+		.right-main-6 p{
+			font-size: 10px;
+			font-family: 黑体;
+			
+			margin-top: 12px;
+		}
+
+		.tip-block-a{
+			width: 61px;
+			height: 47px;
+			background: #43b29e;
+			position: absolute;
+			top: 16px;
+			right: 16px;
+		}
+
+		.tip-block-b{
+			width: 61px;
+			height: 47px;
+			background: #388ac1;
+			position: absolute;
+			top: 16px;
+			right: 16px;
+		}
+		
+		.tip-block-c{
+			width: 61px;
+			height: 47px;
+			background: #d04a36;
+			position: absolute;
+			top: 16px;
+			right: 16px;
+		}
+
+		.tip-block-d{
+			width: 61px;
+			height: 47px;
+			background: #e2cd47;
+			position: absolute;
+			top: 16px;
+			right: 16px;
+		}
+/*成交量部分*/
+/*表格*/
+		.text-table-a{
+			width: 531px;
+			height: 356px;
+			border-radius: 10px;
+		}
+
+		.text-table-b{
+			width: 355px;
+			height: 356px;
+			border-radius: 10px;
+		}
+
+		.text-table-c{
+			width: 355px;
+			height: 356px;
+			border-radius: 10px;
+		}
+
+		.text-table-d{
+			width: 531px;
+			height: 356px;
+			border-radius: 10px;
+		}
+
+		.titlle-a{
+			width: 100%;
+			background: #f4f6f7;
+		}
+/*表格*/
 		/*右边部分*/
